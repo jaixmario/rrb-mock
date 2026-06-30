@@ -746,6 +746,16 @@ function jumpToQuestion(idx) {
     // Sync the select box filter value
     paletteFilterSelect.value = "all";
     paletteFilterSelect.dispatchEvent(new Event('change'));
+
+    // Close mobile sidebar drawer if it was open
+    const rightPanel = document.querySelector(".exam-right-panel");
+    const backdrop = document.getElementById("sidebar-backdrop");
+    if (rightPanel && rightPanel.classList.contains("active")) {
+        rightPanel.classList.remove("active");
+    }
+    if (backdrop && backdrop.classList.contains("active")) {
+        backdrop.classList.remove("active");
+    }
 }
 
 // --- Action: Save & Next ---
@@ -1017,3 +1027,20 @@ document.getElementById("btn-restart-exam").addEventListener("click", () => {
     agreeCheckbox.checked = false;
     btnReadyBegin.disabled = true;
 });
+
+// Mobile palette sidebar toggle
+const btnMobilePalette = document.getElementById("btn-mobile-palette");
+const rightPanel = document.querySelector(".exam-right-panel");
+const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+
+if (btnMobilePalette && rightPanel && sidebarBackdrop) {
+    btnMobilePalette.addEventListener("click", () => {
+        rightPanel.classList.toggle("active");
+        sidebarBackdrop.classList.toggle("active");
+    });
+
+    sidebarBackdrop.addEventListener("click", () => {
+        rightPanel.classList.remove("active");
+        sidebarBackdrop.classList.remove("active");
+    });
+}

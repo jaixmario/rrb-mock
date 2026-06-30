@@ -35,6 +35,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     height: 100vh;
+    height: 100dvh;
     overflow: hidden;
 }
 
@@ -42,6 +43,7 @@ body {
 .view {
     display: none;
     height: 100vh;
+    height: 100dvh;
     width: 100vw;
     overflow-y: auto;
 }
@@ -291,7 +293,7 @@ body {
 
 .status-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 12px;
     font-size: 13px;
 }
@@ -885,6 +887,7 @@ body {
     color: white;
     border-radius: 3px;
     border: 1px solid var(--border-color);
+    flex-shrink: 0;
 }
 
 .badge.not-visited {
@@ -1425,4 +1428,257 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+/* ----------------------------------------------------
+   MOBILE SUPPORT & DRAWERS
+   ---------------------------------------------------- */
+.btn-mobile-palette {
+    display: none;
+}
+
+.sidebar-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.5);
+    z-index: 98;
+    display: none;
+}
+
+.sidebar-backdrop.active {
+    display: block;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    /* Login Page Mobile Styling */
+    .login-container {
+        margin: 10px;
+        width: calc(100% - 20px);
+    }
+    .login-body {
+        flex-direction: column;
+    }
+    .login-left {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+        padding: 20px;
+    }
+    .candidate-photo-placeholder {
+        width: 100px;
+        height: 120px;
+    }
+    .login-right {
+        padding: 20px;
+    }
+    
+    /* Instructions & Declaration Mobile Scaling */
+    .inst-container, .dec-container {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .res-container {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        min-height: 100dvh;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .inst-body, .dec-body {
+        padding: 15px;
+        overflow-y: auto;
+    }
+    .dec-card {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .agree-label {
+        font-size: 11px;
+    }
+    
+    /* Exam Console Mobile Styling */
+    .exam-header {
+        padding: 0 10px;
+    }
+    .exam-logo-section h1 {
+        font-size: 13px;
+    }
+    .paper-title {
+        font-size: 11px;
+        padding: 2px 6px;
+    }
+    .exam-candidate-bar {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .remaining-time-label {
+        display: none; /* Hide label to save space */
+    }
+    .btn-mobile-palette {
+        display: inline-block;
+        background-color: var(--primary-color);
+        color: white;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 11px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+    .btn-mobile-palette:hover {
+        background-color: var(--btn-blue-hover);
+    }
+    
+    /* Left Panel & Section Tabs */
+    .exam-left-panel {
+        width: 100%;
+        flex: 1;
+    }
+    .section-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+    }
+    .section-tabs::-webkit-scrollbar {
+        display: none; /* Hide scrollbars for premium look */
+    }
+    .tab-btn {
+        flex-shrink: 0;
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+    
+    /* Question Card Scaling */
+    .question-header {
+        padding: 8px 12px;
+    }
+    .q-num-label {
+        font-size: 12px;
+    }
+    .q-header-right {
+        gap: 8px;
+    }
+    .marks-label {
+        font-size: 10px;
+    }
+    .lang-toggle-btn {
+        padding: 2px 6px;
+        font-size: 10px;
+    }
+    .question-body {
+        padding: 15px;
+    }
+    .question-text {
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+    .option-item {
+        padding: 8px 12px;
+        gap: 8px;
+    }
+    .option-item label {
+        font-size: 12px;
+    }
+    
+    /* Bottom Actions Reflow */
+    .question-actions {
+        padding: 8px;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .btn-action-blue, .btn-action-clear, .btn-action-red {
+        padding: 8px 6px;
+        font-size: 10px;
+        flex: 1 1 30%;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    /* Right Panel Sliding Drawer */
+    .exam-right-panel {
+        position: fixed;
+        top: calc(var(--header-height) + var(--candidate-bar-height));
+        bottom: 0;
+        right: -260px;
+        width: 260px;
+        height: calc(100vh - var(--header-height) - var(--candidate-bar-height));
+        z-index: 99;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+        transition: right 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        border-left: 1px solid var(--border-color);
+    }
+    .exam-right-panel.active {
+        right: 0;
+    }
+    .palette-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
+    }
+    .pal-btn {
+        height: 36px;
+        font-size: 11px;
+    }
+    
+    /* Results Page Mobile Styling */
+    .res-summary-cards {
+        grid-template-columns: 1fr;
+        padding: 15px;
+        gap: 15px;
+    }
+    .res-card {
+        padding: 15px;
+    }
+    .res-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .res-mini-card {
+        padding: 12px;
+    }
+    .mini-val {
+        font-size: 20px;
+    }
+    .res-section-table {
+        padding: 0 15px 15px 15px;
+        overflow-x: auto;
+    }
+    .analysis-table {
+        min-width: 480px;
+    }
+    .res-solutions-area {
+        padding: 0 15px;
+    }
+    .solutions-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .sol-filter {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        display: flex;
+        padding-bottom: 4px;
+    }
+    .sol-filter::-webkit-scrollbar {
+        display: none;
+    }
+    .sol-filter-btn {
+        flex-shrink: 0;
+    }
 }
