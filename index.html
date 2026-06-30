@@ -56,6 +56,17 @@
                             <label for="password">Password (DOB: DDMMYYYY)</label>
                             <input type="password" id="password" value="30062006" required readonly>
                         </div>
+                        <div class="form-group">
+                            <label for="paper-select">Select Question Paper</label>
+                            <select id="paper-select" class="form-select" required>
+                                <option value="" disabled selected>Loading papers...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" id="btn-configure-questions" class="btn-configure-paper" disabled>
+                                ⚙️ Configure / Review Questions
+                            </button>
+                        </div>
                         <div class="virtual-keyboard-info">
                             <small>*Please click on Sign In to start the exam sequence.</small>
                         </div>
@@ -410,6 +421,44 @@
             <div class="modal-footer justify-center">
                 <button id="btn-cancel-submit" class="btn-modal-cancel">Cancel</button>
                 <button id="btn-confirm-submit" class="btn-modal-submit">Yes, Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Question Configuration Modal -->
+    <div id="config-questions-modal" class="modal-overlay">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h3>Configure Questions - <span id="config-paper-name">7 May 2026 - Shift 1</span></h3>
+                <button type="button" class="close-modal-btn" id="btn-close-config-x">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="config-instructions-alert">
+                    <p>💡 You can manually exclude questions that contain diagrams, shapes, or coordinate charts by unchecking them. Unattempted questions will not be evaluated.</p>
+                </div>
+                <div class="config-toolbar">
+                    <button type="button" id="btn-select-all" class="btn-toolbar-action">Check All</button>
+                    <button type="button" id="btn-deselect-all" class="btn-toolbar-action">Uncheck All</button>
+                    <button type="button" id="btn-deselect-image-qs" class="btn-toolbar-action recommend">Uncheck Recommended (Images/Shapes)</button>
+                </div>
+                <div class="config-questions-list-wrapper">
+                    <table class="config-questions-table">
+                        <thead>
+                            <tr>
+                                <th width="10%">No.</th>
+                                <th width="20%">Section</th>
+                                <th width="60%">Question Preview</th>
+                                <th width="10%">Include</th>
+                            </tr>
+                        </thead>
+                        <tbody id="config-questions-list">
+                            <!-- Questions will be rendered dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btn-save-config" class="btn-modal-submit">Save Configuration</button>
             </div>
         </div>
     </div>

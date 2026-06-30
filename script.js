@@ -469,12 +469,8 @@ let timeRemaining = examDuration;
 let timerInterval = null;
 let activeQuestionIndex = 0; // global index from 0 to 29
 let selectedSection = "awareness"; // current section: awareness, mathematics, reasoning
-let userAnswers = Array(questionsData.length).fill(null).map((_, idx) => ({
-    questionId: questionsData[idx].id,
-    selectedOption: null, // null or 0, 1, 2, 3
-    draftOption: null,    // draft selection before saving
-    status: "not_visited"  // 'not_visited', 'not_answered', 'answered', 'marked', 'answered_marked'
-}));
+let activeQuestions = [...questionsData]; // fallback list of questions
+let userAnswers = [];
 
 // DOM Elements
 const views = {
@@ -501,6 +497,14 @@ function switchView(viewId) {
 // --- Login Logic ---
 document.getElementById("login-form").addEventListener("submit", (e) => {
     e.preventDefault();
+    const paperSelect = document.getElementById("paper-select");
+    if (paperSelect && !paperSelect.value) {
+        alert("Please select a question paper to begin.");
+        return;
+    }
+    if (activeQuestions.length === 0 && allLoadedQuestions.length > 0) {
+        activeQuestions = allLoadedQuestions.filter(q => !q.has_image);
+    }
     switchView("instructions-screen");
 });
 
@@ -536,8 +540,8 @@ function startExam() {
     switchView("exam-screen");
     
     // Initialise answers state
-    userAnswers = Array(questionsData.length).fill(null).map((_, idx) => ({
-        questionId: questionsData[idx].id,
+    userAnswers = Array(activeQuestions.length).fill(null).map((_, idx) => ({
+        questionId: activeQuestions[idx].id,
         selectedOption: null,
         draftOption: null,
         status: "not_visited"
@@ -597,7 +601,7 @@ function renderSectionTabs() {
             const sec = btn.getAttribute("data-section");
             if (selectedSection !== sec) {
                 // Find first question index of the selected section
-                const firstIdx = questionsData.findIndex(q => q.section === sec);
+                const firstIdx = activeQuestions.findIndex(q => q.section === sec);
                 if (firstIdx !== -1) {
                     jumpToQuestion(firstIdx);
                 }
@@ -609,7 +613,7 @@ function renderSectionTabs() {
 // --- Load Question Details ---
 function loadQuestion(index) {
     activeQuestionIndex = index;
-    const q = questionsData[index];
+    const q = activeQuestions[index];
     selectedSection = q.section;
     
     // Update active class on section tabs
@@ -689,7 +693,7 @@ function renderQuestionPalette() {
     const paletteGrid = document.getElementById("question-palette-grid");
     paletteGrid.innerHTML = "";
 
-    questionsData.forEach((q, idx) => {
+    activeQuestions.forEach((q, idx) => {
         const btn = document.createElement("button");
         btn.className = `pal-btn ${userAnswers[idx].status}`;
         btn.textContent = idx + 1;
@@ -805,7 +809,7 @@ document.getElementById("btn-clear").addEventListener("click", () => {
 
 function navigateToNext() {
     // Move to next question index (wrap around)
-    const nextIdx = (activeQuestionIndex + 1) % questionsData.length;
+    const nextIdx = (activeQuestionIndex + 1) % activeQuestions.length;
     jumpToQuestion(nextIdx);
 }
 
@@ -891,18 +895,23 @@ function submitExam() {
         reasoning: { total: 0, attempted: 0, correct: 0, incorrect: 0, marks: 0 }
     };
 
-    questionsData.forEach((q, idx) => {
+    activeQuestions.forEach((q, idx) => {
         const userAns = userAnswers[idx];
         const sub = q.section;
         
         subjectMetrics[sub].total++;
+
+        // Resolve correct answer index dynamically (checks active language block first)
+        const corrAns = (q[currentLanguage] && q[currentLanguage].correctAnswer !== undefined) 
+            ? q[currentLanguage].correctAnswer 
+            : q.correctAnswer;
 
         // Evaluate answer
         if (userAns.selectedOption === null) {
             unattemptedCount++;
         } else {
             subjectMetrics[sub].attempted++;
-            if (userAns.selectedOption === q.correctAnswer) {
+            if (userAns.selectedOption === corrAns) {
                 correctCount++;
                 subjectMetrics[sub].correct++;
                 subjectMetrics[sub].marks += 1;
@@ -921,7 +930,7 @@ function submitExam() {
         : 0;
 
     // Set dashboard display
-    document.getElementById("result-score").textContent = `${finalScore} / ${questionsData.length}`;
+    document.getElementById("result-score").textContent = `${finalScore} / ${activeQuestions.length}`;
     document.getElementById("result-accuracy").textContent = `${accuracy}%`;
     document.getElementById("result-correct-count").textContent = correctCount;
     document.getElementById("result-incorrect-count").textContent = incorrectCount;
@@ -961,9 +970,15 @@ function renderSolutions(filter) {
     const solContainer = document.getElementById("solutions-list-container");
     solContainer.innerHTML = "";
 
-    questionsData.forEach((q, idx) => {
+    activeQuestions.forEach((q, idx) => {
         const userAns = userAnswers[idx];
-        const isCorrect = userAns.selectedOption === q.correctAnswer;
+        
+        // Resolve correct answer index dynamically (checks active language block first)
+        const corrAns = (q[currentLanguage] && q[currentLanguage].correctAnswer !== undefined) 
+            ? q[currentLanguage].correctAnswer 
+            : q.correctAnswer;
+            
+        const isCorrect = userAns.selectedOption === corrAns;
         const isUnattempted = userAns.selectedOption === null;
 
         // Apply solutions tab filter
@@ -986,12 +1001,12 @@ function renderSolutions(filter) {
         const langData = q[currentLanguage] || q.en;
         langData.options.forEach((opt, optIdx) => {
             let lineClass = "";
-            if (optIdx === q.correctAnswer) {
+            if (optIdx === corrAns) {
                 lineClass = "correct";
             } else if (userAns.selectedOption === optIdx) {
                 lineClass = "user-wrong";
             }
-            optionsHtml += `<div class="sol-option-line ${lineClass}">${optIdx + 1}. ${opt} ${optIdx === q.correctAnswer ? '✓ (Correct)' : (userAns.selectedOption === optIdx ? '✗ (Your Choice)' : '')}</div>`;
+            optionsHtml += `<div class="sol-option-line ${lineClass}">${optIdx + 1}. ${opt} ${optIdx === corrAns ? '✓ (Correct)' : (userAns.selectedOption === optIdx ? '✗ (Your Choice)' : '')}</div>`;
         });
 
         solItem.innerHTML = `
@@ -1044,3 +1059,176 @@ if (btnMobilePalette && rightPanel && sidebarBackdrop) {
         sidebarBackdrop.classList.remove("active");
     });
 }
+
+
+// ====================================================
+// --- Dynamic Paper Loader & Configurations ---
+// ====================================================
+let allLoadedQuestions = []; // stores all questions in the chosen paper
+
+async function loadPapersManifest() {
+    try {
+        const response = await fetch("papers/index.json");
+        const papers = await response.json();
+        
+        const paperSelect = document.getElementById("paper-select");
+        paperSelect.innerHTML = `<option value="" disabled selected>Select a paper...</option>`;
+        
+        papers.forEach(p => {
+            const opt = document.createElement("option");
+            opt.value = p.id;
+            opt.textContent = `${p.name} (${p.totalQuestions} Questions)`;
+            paperSelect.appendChild(opt);
+        });
+        
+        paperSelect.addEventListener("change", async (e) => {
+            const paperId = e.target.value;
+            const configBtn = document.getElementById("btn-configure-questions");
+            configBtn.disabled = true;
+            configBtn.textContent = "⌛ Loading Paper...";
+            
+            try {
+                const res = await fetch(`papers/${paperId}.json`);
+                allLoadedQuestions = await res.json();
+                
+                // Initialize activeQuestions with non-image questions by default
+                activeQuestions = allLoadedQuestions.filter(q => !q.has_image);
+                
+                configBtn.disabled = false;
+                configBtn.innerHTML = `⚙️ Configure / Review Questions`;
+            } catch (err) {
+                console.error("Error loading paper json:", err);
+                configBtn.textContent = "❌ Failed to Load";
+            }
+        });
+    } catch (err) {
+        console.error("Error loading index.json:", err);
+        document.getElementById("paper-select").innerHTML = `<option value="" disabled>Failed to load papers</option>`;
+    }
+}
+
+// Configuration Modal DOM Elements
+const configModal = document.getElementById("config-questions-modal");
+const btnConfigureQs = document.getElementById("btn-configure-questions");
+const btnCloseConfigX = document.getElementById("btn-close-config-x");
+const btnSaveConfig = document.getElementById("btn-save-config");
+const btnSelectAll = document.getElementById("btn-select-all");
+const btnDeselectAll = document.getElementById("btn-deselect-all");
+const btnDeselectImageQs = document.getElementById("btn-deselect-image-qs");
+const configListContainer = document.getElementById("config-questions-list");
+
+if (btnConfigureQs) {
+    btnConfigureQs.addEventListener("click", () => {
+        const paperSelect = document.getElementById("paper-select");
+        if (!paperSelect.value) return;
+        const paperName = paperSelect.options[paperSelect.selectedIndex].text;
+        document.getElementById("config-paper-name").textContent = paperName;
+        
+        // Render the questions table
+        renderConfigQuestionsList();
+        
+        configModal.classList.add("active");
+    });
+}
+
+function closeConfigModal() {
+    configModal.classList.remove("active");
+}
+
+if (btnCloseConfigX) btnCloseConfigX.addEventListener("click", closeConfigModal);
+
+// Close modal if clicking outside content
+if (configModal) {
+    configModal.addEventListener("click", (e) => {
+        if (e.target === configModal) {
+            closeConfigModal();
+        }
+    });
+}
+
+function renderConfigQuestionsList() {
+    configListContainer.innerHTML = "";
+    
+    allLoadedQuestions.forEach((q, idx) => {
+        const tr = document.createElement("tr");
+        if (q.has_image) {
+            tr.className = "image-question";
+        }
+        
+        // Check if this question is currently in activeQuestions
+        const isIncluded = activeQuestions.some(aq => aq.id === q.id);
+        
+        const langData = q.en;
+        const previewText = langData.text.length > 70 ? langData.text.substring(0, 70) + "..." : langData.text;
+        
+        let sectionBadge = `<span class="badge-tag ${q.section}">${q.section === 'awareness' ? 'GK' : (q.section === 'mathematics' ? 'Math' : 'Reasoning')}</span>`;
+        if (q.has_image) {
+            sectionBadge += `<span class="badge-tag image-warn">Image/Shape</span>`;
+        }
+        
+        tr.innerHTML = `
+            <td><strong>${idx + 1}</strong></td>
+            <td>${sectionBadge}</td>
+            <td><div class="q-preview-text" title="${langData.text}">${previewText}</div></td>
+            <td><input type="checkbox" class="config-q-checkbox" data-id="${q.id}" ${isIncluded ? 'checked' : ''}></td>
+        `;
+        configListContainer.appendChild(tr);
+    });
+}
+
+if (btnSelectAll) {
+    btnSelectAll.addEventListener("click", () => {
+        document.querySelectorAll(".config-q-checkbox").forEach(cb => cb.checked = true);
+    });
+}
+
+if (btnDeselectAll) {
+    btnDeselectAll.addEventListener("click", () => {
+        document.querySelectorAll(".config-q-checkbox").forEach(cb => cb.checked = false);
+    });
+}
+
+if (btnDeselectImageQs) {
+    btnDeselectImageQs.addEventListener("click", () => {
+        allLoadedQuestions.forEach((q, idx) => {
+            const cb = document.querySelector(`.config-q-checkbox[data-id="${q.id}"]`);
+            if (cb) {
+                cb.checked = !q.has_image;
+            }
+        });
+    });
+}
+
+if (btnSaveConfig) {
+    btnSaveConfig.addEventListener("click", () => {
+        const checkedIds = [];
+        document.querySelectorAll(".config-q-checkbox").forEach(cb => {
+            if (cb.checked) {
+                checkedIds.push(parseInt(cb.getAttribute("data-id")));
+            }
+        });
+        
+        if (checkedIds.length === 0) {
+            alert("Please select at least 1 question to include in the mock exam.");
+            return;
+        }
+        
+        // Filter allLoadedQuestions based on checked IDs
+        activeQuestions = allLoadedQuestions.filter(q => checkedIds.includes(q.id));
+        
+        // Update confirmation summary values in Submit modal
+        const totalQsText = document.querySelector(".submit-summary-box p:first-child strong");
+        if (totalQsText) {
+            totalQsText.textContent = activeQuestions.length;
+        }
+        
+        alert(`Configuration saved! ${activeQuestions.length} questions will be included in the test.`);
+        closeConfigModal();
+    });
+}
+
+
+// Initialize on page load
+document.addEventListener("DOMContentLoaded", () => {
+    loadPapersManifest();
+});

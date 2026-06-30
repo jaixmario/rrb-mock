@@ -1452,6 +1452,152 @@ body {
     display: block;
 }
 
+/* Question Paper Selection & Custom Configurations */
+.form-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: inherit;
+    color: #333;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.form-select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 5px rgba(29, 66, 137, 0.2);
+}
+.btn-configure-paper {
+    background: none;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+.btn-configure-paper:hover:not(:disabled) {
+    background-color: rgba(29, 66, 137, 0.05);
+}
+.btn-configure-paper:disabled {
+    border-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* Large Modal Override */
+.modal-content.large-modal {
+    max-width: 800px;
+    width: 95%;
+}
+.config-instructions-alert {
+    background-color: #e8f0fe;
+    border-left: 4px solid var(--primary-color);
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 0 4px 4px 0;
+    text-align: left;
+}
+.config-instructions-alert p {
+    margin: 0;
+    font-size: 13px;
+    color: #1d4289;
+    line-height: 1.4;
+}
+.config-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.btn-toolbar-action {
+    background-color: #f1f3f4;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+.btn-toolbar-action:hover {
+    background-color: #e8eaed;
+}
+.btn-toolbar-action.recommend {
+    background-color: #e8f0fe;
+    border-color: #d2e3fc;
+    color: #1a73e8;
+}
+.btn-toolbar-action.recommend:hover {
+    background-color: #d2e3fc;
+}
+.config-questions-list-wrapper {
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+.config-questions-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+}
+.config-questions-table th {
+    background-color: #f1f3f4;
+    padding: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.config-questions-table td {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+.config-questions-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+.config-questions-table tbody tr.image-question {
+    background-color: #fff8f8;
+}
+.config-questions-table tbody tr.image-question:hover {
+    background-color: #ffeef0;
+}
+.badge-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.badge-tag.awareness { background-color: #e8f0fe; color: #1a73e8; }
+.badge-tag.mathematics { background-color: #e6f4ea; color: #137333; }
+.badge-tag.reasoning { background-color: #fef7e0; color: #b06000; }
+.badge-tag.image-warn { background-color: #fce8e6; color: #c5221f; margin-left: 5px; }
+
+/* Small checkbox zoom */
+.config-questions-table input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
 /* Responsive Media Queries */
 @media (max-width: 768px) {
     /* Login Page Mobile Styling */
