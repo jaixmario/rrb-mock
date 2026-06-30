@@ -1,0 +1,2330 @@
+[
+  {
+    "id": 1,
+    "section": "awareness",
+    "en": {
+      "text": "In genetics, a gene refers to which of the following?",
+      "options": [
+        "A sex chromosome",
+        "A unit of blood group",
+        "A section of DNA that codes for a protein",
+        "A type of chromosome"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "आनुवंिशकी म\u0000, जीन िनम्निल\u0000खत म\u0000 से िकसे संदिभ\u0000त करता है?",
+      "options": [
+        "DNA का वह भाग जो प्रोटीन के िलए कोड करता है",
+        "एक िलंग गुणसूत्र",
+        "\u0000 लड ग्रुप की एक यूिनट",
+        "गुणसूत्र के एक प्रकार"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 2,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following Harappan sites yielded excellent examples of metal-cast sculptures?",
+      "options": [
+        "Nageshwar",
+        "Kalibangan",
+        "Daimabad",
+        "Rangpur"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से िकस हड़\u0000ा स्थल से धातु से ढली मूित\u0000यो ं(metal-cast sculptures) के उ\u0000ृष्ट उदाहरण िमले ह\u0000?",
+      "options": [
+        "रंगपुर (Rangpur)",
+        "दाइमाबाद (Daimabad)",
+        "नागेश्वर (Nageshwar)",
+        "कालीबंगा (Kalibangan)"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 3,
+    "section": "awareness",
+    "en": {
+      "text": "According to the Constitution of India, which constitutional body advises the President on the principles governing grants-in-aid to States from the Consolidated Fund of India?",
+      "options": [
+        "Planning Commission",
+        "Comptroller and Auditor General of India",
+        "Finance Commission",
+        "NITI Aayog"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "भारत के संिवधान के अनुसार, कौन-सा संवैधािनक िनकाय राष्ट\u0000पित को भारत की संिचत िनिध म\u0000 से राज्यो ंको सहायता-अनुदान देने के िसद्धांतो ंपर सलाह देता है?",
+      "options": [
+        "योजना आयोग",
+        "भारत के िनयंत्रक और महालेखा परीक्षक",
+        "िवत्त आयोग",
+        "नीित आयोग"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 4,
+    "section": "awareness",
+    "en": {
+      "text": "Provisions for the 'Control over subordinate courts' are provided in which of the following Articles of the Constitution of India?",
+      "options": [
+        "Article 225",
+        "Article 235",
+        "Article 255",
+        "Article 245"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "भारत के संिवधान के िनम्निल\u0000खत म\u0000 से िकस अनु\u0000ेद म\u0000 'अधीनस्थ न्यायालयो ंपर िनयंत्रण' का प्रावधान िदया गया है?",
+      "options": [
+        "अनुच्छेद 235",
+        "अनुच्छेद 245",
+        "अनुच्छेद 225",
+        "अनुच्छेद 255"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 5,
+    "section": "awareness",
+    "en": {
+      "text": "How many Indian languages hold Classical Language status as of October 2025?",
+      "options": [
+        "8",
+        "6",
+        "11",
+        "10"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "अ\u0000ूबर 2025 तक की \u0000स्थित के अनुसार, िकतनी भारतीय भाषाओ ंको शा\u0000ीय भाषा का दजा\u0000 प्राप्त है?",
+      "options": [
+        "8",
+        "10",
+        "11",
+        "6"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 6,
+    "section": "awareness",
+    "en": {
+      "text": "Which type of climate characterises the Great Indian Desert?",
+      "options": [
+        "Humid subtropical climate",
+        "Arid and semi arid climate",
+        "Tropical monsoon climate",
+        "Equatorial climate"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "फरवरी 2026 को, भारत ने िकस देश के साथ वन, वन्यजीव, पया\u0000वरण, जैव िविवधता संरक्षण और जलवायु प\u0000रवत\u0000न के क्षेत्र म\u0000 सहयोग को मजबूत करने के िलए समझौता \u0000ापन (MoU) पर हस्ताक्षर िकए?",
+      "options": [
+        "भूटान",
+        "नेपाल",
+        "\u0000ीलंका",
+        "बां\u0000ादेश"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 7,
+    "section": "awareness",
+    "en": {
+      "text": "A Sultan of Delhi attempted to strengthen control over the Deccan by shifting his capital from Delhi to Deogir (Daulatabad), a decision that later proved controversial due to administrative difficulties. Who took this measure?",
+      "options": [
+        "Muhammad bin Tughlaq",
+        "Alauddin Khalji",
+        "Ghiyasuddin Tughlaq",
+        "Firoz Shah Tughlaq"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िद\u0000ी के एक सु\u0000ान ने अपनी राजधानी को िद\u0000ी से देविगरी (दौलताबाद) स्थानांत\u0000रत करके दक्कन पर अपना िनयंत्रण मजबूत करने का प्रयास िकया, यह िनण\u0000य बाद म\u0000 प्रशासिनक किठनाइयो ंके कारण िववादास्पद िसद्ध हुआ। यह िनण\u0000य िकसने िलया था?",
+      "options": [
+        "अलाउद्दीन \u0000खलजी",
+        "िफरोज शाह तुगलक",
+        "मुहम्मद िबन तुगलक",
+        "गयासुद्दीन तुगलक"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 8,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following wind systems is primarily responsible for the rainfall over the Coromandel coast during the winter season?",
+      "options": [
+        "Western disturbances",
+        "Westerlies",
+        "Northeast monsoon winds",
+        "Southwest monsoon winds"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सी पवन प्रणाली मुख्य रूप से शीत ऋतु के दौरान कोरोमंडल तट पर होने वाली वषा\u0000 के िलए उत्तरदायी है?",
+      "options": [
+        "उत्तर-पूव\u0000 मानसून पवन\u0000",
+        "पि\u0000मी िवक्षोभ (Western disturbance)",
+        "दिक्षण-पि\u0000मी मानसूनी पवन\u0000",
+        "पच्छमी पवन (Westerlies)"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 9,
+    "section": "awareness",
+    "en": {
+      "text": "India signed a Memorandum of Understanding (MoU) on 25 February 2026 to strengthen cooperation in forests, wildlife, environment, biodiversity conservation, and climate change with which country?",
+      "options": [
+        "Bangladesh",
+        "Nepal",
+        "Bhutan",
+        "Sri Lanka"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "अप्रैल 2025 म\u0000, ब\u0000गलुरु म\u0000 ि\u0000क-इन\u0000ेम (BRIC-InStem) ने िकस िचिकत्सा संस्थान के साथ िमलकर हीमोफीिलया के िलए भारत का पहला जीन थेरेपी परीक्षण सफलतापूव\u0000क संपन्न िकया?",
+      "options": [
+        "अ\u0000खल भारतीय आयुिव\u0000\u0000ान संस्थान, नई िद\u0000ी",
+        "भारतीय आयुिव\u0000\u0000ान अनुसंधान प\u0000रषद",
+        "गांधी मेिडकल कॉलेज, हैदराबाद",
+        "ि\u0000ि\u0000यन मेिडकल कॉलेज, वे\u0000ोर"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 10,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following features characterises Stage III of demographic transition?",
+      "options": [
+        "Low fertility and low mortality",
+        "Rapid death rate increase",
+        "High mortality and high fertility",
+        "High migration and low death rate"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सी िवशेषता जनसां\u0000ख्यकीय संक्रमण के चरण III की िवशेषता है?",
+      "options": [
+        "मृत्यु दर म\u0000 तेजी से वृ\u0000द्ध",
+        "उच्च प्रवासन और िनम्न मृत्यु दर",
+        "िनम्न प्रजनन दर और िनम्न मृत्यु दर",
+        "उच्च मृत्यु दर और उच्च प्रजनन दर"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 11,
+    "section": "awareness",
+    "en": {
+      "text": "In April 2025, BRIC-InStem in Bengaluru collaborated with which medical institution to successfully conduct India’s first gene therapy trial for Haemophilia?",
+      "options": [
+        "Indian Council of Medical Research",
+        "Christian Medical College, Vellore",
+        "All India Institute of Medical Sciences, New Delhi",
+        "Gandhi Medical College, Hyderabad"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "भारतीय रेलवे की िकस क\u0000\u0000ीय पहल के तहत जनवरी 2024 से अप्रैल 2025 के बीच 260 से अिधक लापता या तस्करी िकए गए बच्चो ंको बचाया गया है?",
+      "options": [
+        "िमशन वात्सल्य रेल ड\u0000ाइव",
+        "ऑपरेशन न\u0000े फ\u0000र\u0000े",
+        "चाइल्डलाइन एक्सप्रेस",
+        "ऑपरेशन श\u0000\u0000"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 12,
+    "section": "awareness",
+    "en": {
+      "text": "Which institution handles the promotion of Classical Languages under the Ministry of Education?",
+      "options": [
+        "Sahitya Akademi of India",
+        "Indira Gandhi National Centre for the Arts",
+        "Archaeological Survey of India",
+        "Central Institute of Indian Languages"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िशक्षा मंत्रालय के अंतग\u0000त शा\u0000ीय भाषाओ ंके संवध\u0000न का काय\u0000 कौन-सा संस्थान संभालता है?",
+      "options": [
+        "भारतीय पुरातत्व सव\u0000क्षण",
+        "इंिदरा गांधी राष्ट\u0000ीय कला क\u0000द्र",
+        "क\u0000द्रीय भारतीय भाषा संस्थान",
+        "भारतीय सािहत्य अकादमी"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 13,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following statements most accurately describes the social structure of Mauryan society in ancient India?",
+      "options": [
+        "An organised society with distinct social classes and a wide range of occupational groups",
+        "Exclusively tribal society with absence of settled agriculture",
+        "Society controlled only by mercantile guilds with no other social groups",
+        "A completely egalitarian society without any form of social or occupational differentiation"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा कथन प्राचीन भारत म\u0000 मौय\u0000 समाज की सामािजक संरचना का सबसे सटीक वण\u0000न करता है?",
+      "options": [
+        "एक संगिठत समाज, िजसम\u0000 स्पष्ट सामािजक वग\u0000 और िविवध व्यावसाियक समूह मौजूद ह\u0000।",
+        "स्थायी कृिष का अभाव वाला िवशुद्ध जनजातीय समाज",
+        "एक पूण\u0000तः समतावादी समाज, िजसम\u0000 िकसी भी प्रकार का सामािजक या व्यावसाियक भेदभाव न हो।",
+        "एक ऐसा समाज, िजस पर केवल व्यापा\u0000रक िगल्डो ंका िनयंत्रण हो और िजसम\u0000 कोई अन्य सामािजक समूह न हो।ं"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 14,
+    "section": "awareness",
+    "en": {
+      "text": "When dilute Hydrochloric acid (HCl) reacts with Sodium Hydrogen Carbonte (NaHCO), 3 which is the product formed along with Sodium chloride(NaCl) and Water(H₂O)?",
+      "options": [
+        "Ammonium Chloride (NH4Cl)",
+        "Chloroform (CHCl3)",
+        "Hydrogen gas(H₂)",
+        "Carbon Dioxide(CO₂)"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "जब तनु हाइड\u0000ो\u0000ो\u0000रक अम्ल (HCl) की सोिडयम हाइड\u0000ोजन काब\u0000नेट (NaHCO) के साथ अिभिक्रया 3 होती है, तो सोिडयम \u0000ोराइड (NaCl) और जल (H₂O) के साथ कौन-सा उत्पाद बनता है?",
+      "options": [
+        "\u0000ोरोफॉम\u0000 (CHCl3)",
+        "काब\u0000न डाइऑक्साइड (CO₂)",
+        "हाइड\u0000ोजन गैस (H₂)",
+        "अमोिनयम \u0000ोराइड (NH4Cl)"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 15,
+    "section": "awareness",
+    "en": {
+      "text": "Which central initiative by Indian Railways has rescued over 260 missing or trafficked children between January 2024 and April 2025?",
+      "options": [
+        "Operation Shakti",
+        "Mission Vatsalya Rail Drive",
+        "Operation Nanhe Farishte",
+        "Childline Express"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "अगस्त 2025 म\u0000, िन\u0000\u0000य ध्विनक िनगरानी और AI टूल का उपयोग करके भारत की पहली \u0000ासल\u0000ड बड\u0000 स\u0000सस को प्रधानमंत्री ने अपने 'मन की बात' संबोधन म\u0000 प्रकाश डाला था। यह संगणना िकस राष्ट\u0000ीय उ\u0000ान म\u0000 आयोिजत की गई थी?",
+      "options": [
+        "सु\u0000ानपुर राष्ट\u0000ीय उ\u0000ान, ह\u0000रयाणा",
+        "काजीरंगा राष्ट\u0000ीय उ\u0000ान, असम",
+        "केवलादेव राष्ट\u0000ीय उ\u0000ान, राजस्थान",
+        "िजम कॉब\u0000ट राष्ट\u0000ीय उ\u0000ान, उत्तराखंड"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 16,
+    "section": "awareness",
+    "en": {
+      "text": "Control over district and subordinate courts’ posting, promotion and leaves of judges vests primarily in which authority?",
+      "options": [
+        "Law Ministry of India",
+        "Parliament",
+        "High Court",
+        "President of India"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "िजला और अधीनस्थ न्यायालयो ंम\u0000 न्यायाधीशो ंकी िनयु\u0000क्त, पदोन्नित और अवकाश पर िनयंत्रण मुख्य रूप से िकस प्रािधकरण/प्रािधकारी म\u0000 िनिहत होता है?",
+      "options": [
+        "भारत का िविध मंत्रालय",
+        "उच्च न्यायालय",
+        "भारत के राष्ट\u0000पित",
+        "संसद"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 17,
+    "section": "awareness",
+    "en": {
+      "text": "Which circumstance directly triggered Gandhi’s decision to launch the Rowlatt Satyagraha in 1919?",
+      "options": [
+        "The cancellation of wartime recruitment policies in northern India.",
+        "The British announcement of new taxation on agricultural harvests.",
+        "The rejection of Indian demands for complete dominion status by Britain.",
+        "The enactment of laws enabling detention without trial despite resistance."
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "म\u0000 गांधीजी \u0000ारा रॉलेट सत्याग्रह शुरू करने के िनण\u0000य को िकस प\u0000र\u0000स्थित ने प्रत्यक्ष रूप से प्रे\u0000रत िकया था?",
+      "options": [
+        "प्रितरोध के बावजूद िबना मुकदमे के िहरासत म\u0000 रखने की अनुमित देने वाले कानूनो ंका अिधिनयमन",
+        "ि\u0000टेन \u0000ारा भारतीयो ंकी पूण\u0000 अिधराज्य \u0000स्थित की मांग को अ\u0000ीकार करना",
+        "ि\u0000टेन \u0000ारा कृिष उपज पर नए कर लगाने की घोषणा",
+        "उत्तरी भारत म\u0000 युद्धकालीन भत\u0000 नीितयो ंको रद्द करना"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 18,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following memory types is non-volatile?",
+      "options": [
+        "CPU",
+        "PCB",
+        "RAM",
+        "ROM"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा मेमोरी प्रकार, नॉन-वोलेटाइल (non-volatile) है?",
+      "options": [
+        "ROM",
+        "PCB",
+        "CPU",
+        "RAM"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 19,
+    "section": "awareness",
+    "en": {
+      "text": "Where was the capital of the Estado da India located?",
+      "options": [
+        "Lisbon",
+        "Goa",
+        "Malacca",
+        "Cochin"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "ए\u0000ाडो द इंिडया (Estado da India) की राजधानी कहाँ \u0000स्थत थी?",
+      "options": [
+        "िलस्बन",
+        "गोवा",
+        "मला\u0000ा",
+        "कोचीन"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 20,
+    "section": "awareness",
+    "en": {
+      "text": "Which Article of the Indian Constitution mentions the Power of Parliament to amend the Constitution?",
+      "options": [
+        "Article 359",
+        "Article 368",
+        "Article 360",
+        "Article 361"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "भारतीय संिवधान का कौन-सा अनु\u0000ेद, संिवधान म\u0000 संशोधन करने की संसद की श\u0000क्त का उ\u0000ेख करता है?",
+      "options": [
+        "अनुच्छेद 360",
+        "अनुच्छेद 368",
+        "अनुच्छेद 359",
+        "अनुच्छेद 361"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 21,
+    "section": "awareness",
+    "en": {
+      "text": "Which part of the musculoskeletal system is primarily responsible for protecting the brain?",
+      "options": [
+        "Pelvic girdle",
+        "Spine",
+        "Skull",
+        "Rib cage"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "भारतीय संिवधान के अंतग\u0000त िकसी राज्य म\u0000 िकस प्रकार के िवधानमंडल हो सकते ह\u0000?",
+      "options": [
+        "केवल ि\u0000-सदनीय प्रणाली",
+        "केवल एकल-सदनीय प्रणाली",
+        "या तो एकल-सदनीय प्रणाली या ि\u0000-सदनीय प्रणाली",
+        "केवल संसद ही िनण\u0000य ले सकती है"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 22,
+    "section": "awareness",
+    "en": {
+      "text": "Which digital file format is widely used to save three-dimensional models for 3D printing? It is the standard format supported by most 3D printers.",
+      "options": [
+        "PDF",
+        "DOCX",
+        "STL",
+        "XLSX"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "D िप्रंिटंग के िलए \u0000ी-डाइम\u0000शनल मॉडल (three-dimensional model) को सेव करने हेतु कौन-सा िडिजटल फाइल फॉम\u0000ट व्यापक रूप से उपयोग होता है? यह अिधकतर 3D िप्रंटर \u0000ारा सपोट\u0000 िकया जाने वाला \u0000\u0000डड\u0000 फॉम\u0000ट है।",
+      "options": [
+        "XLSX",
+        "STL",
+        "DOCX",
+        "PDF"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 23,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following is a tertiary sector activity?",
+      "options": [
+        "Mining",
+        "Manufacturing",
+        "Farming",
+        "Teaching"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सी एक तृतीयक क्षेत्र गितिविध है?",
+      "options": [
+        "िविनमा\u0000ण",
+        "िशक्षण",
+        "कृिष",
+        "खनन"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 24,
+    "section": "awareness",
+    "en": {
+      "text": "A computer cannot open a printer without a driver. This driver is an example of a/an:",
+      "options": [
+        "System software",
+        "Document file",
+        "Input device",
+        "Game"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "कं\u0000ूटर, ड\u0000ाइवर (driver) के िबना िप्रंटर को ओपन नही ंकर सकता है। यह ड\u0000ाइवर, ______________ का एक उदाहरण है।",
+      "options": [
+        "इनपुट िडवाइस",
+        "गेम",
+        "िसस्टम सॉफ्टवेयर",
+        "डॉ\u0000ूम\u0000ट फ़ाइल"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 25,
+    "section": "awareness",
+    "en": {
+      "text": "Which feature distinguishes ROM from RAM?",
+      "options": [
+        "ROM is faster than RAM.",
+        "ROM stores permanent instructions; RAM stores temporary data.",
+        "ROM is used for storage; RAM is used for graphics.",
+        "ROM is volatile; RAM is non-volatile."
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "कौन-सी िवशेषता ROM को RAM से पृथक करती है?",
+      "options": [
+        "ROM म\u0000 स्थायी िनद\u0000श संग्रिहत होते ह\u0000; RAM म\u0000 अस्थायी डेटा संग्रिहत होता है।",
+        "ROM का उपयोग स्टोरेज के िलए िकया जाता है; RAM का उपयोग ग्रािफक्स के िलए िकया जाता है।",
+        "ROM, RAM की तुलना म\u0000 तेज़ होती है।",
+        "ROM वोलेटाइल है; RAM नॉन-वोलेटाइल है।"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 26,
+    "section": "awareness",
+    "en": {
+      "text": "The Industrial Policy of 1991 led to:",
+      "options": [
+        "Decrease in private sector participation",
+        "Nationalization of key industries",
+        "Establishment of public sector monopolies",
+        "Abolishing industrial licensing for most industries"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "वष\u0000 1991 की औ\u0000ोिगक नीित के कारण \u0000ा प\u0000रणाम प्राप्त हुए?",
+      "options": [
+        "साव\u0000जिनक क्षेत्र के एकािधकारो ंकी स्थापना",
+        "िनजी क्षेत्र की भागीदारी म\u0000 कमी",
+        "अिधकांश उ\u0000ोगो ंके िलए औ\u0000ोिगक लाइस\u0000\u0000िसंग का उ\u0000ूलन",
+        "प्रमुख उ\u0000ोगो ंका राष्ट\u0000ीयकरण"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 27,
+    "section": "awareness",
+    "en": {
+      "text": "Which of the following is NOT a true element of Harappan architecture?",
+      "options": [
+        "Cities included public buildings and well-planned houses",
+        "Buildings in Harappan cities were made of standardized baked bricks",
+        "Architecture focused on functional design rather than decoration",
+        "Cities had magnificent palaces, monuments and royal tombs"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "जुलाई 2025 की शुरुआत म\u0000, 17वां ि\u0000क्स (BRICS) नेताओ ंका िशखर स\u0000ेलन िकस शहर म\u0000 आयोिजत िकया गया?",
+      "options": [
+        "जोहानसबग\u0000",
+        "नई िद\u0000ी",
+        "\u0000रयो डी जने\u0000रयो",
+        "शंघाई"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 28,
+    "section": "awareness",
+    "en": {
+      "text": "Which one of the following economic factors attracts population to an area?",
+      "options": [
+        "High cost of living",
+        "Limited transportation facilities",
+        "Industrial development",
+        "Lack of job opportunities"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "कौन-सी धातु, ठंडे जल के साथ तीव्र अिभिक्रया करके धातु हाइड\u0000ॉक्साइड, हाइड\u0000ोजन गैस और इतनी ऊ\u0000ा उत्पन्न करती है िक उत्सिज\u0000त हाइड\u0000ोजन त\u0000ाल प्रज्ज्विलत हो जाती है?",
+      "options": [
+        "मै\u0000ीिशयम",
+        "कै\u0000\u0000शयम",
+        "ऐलुिमिनयम",
+        "पोटैिशयम"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 29,
+    "section": "awareness",
+    "en": {
+      "text": "Who among the following has been sworn in as the President of Uruguay on 1 March 2025?",
+      "options": [
+        "Yamandu Orsi",
+        "Jair Bolsonaro",
+        "Claudia Sheinbaum",
+        "Masoud Pezeshkian"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से िकसने 1 माच\u0000 2025 को उरु\u0000े के राष्ट\u0000पित के रूप म\u0000 शपथ ली?",
+      "options": [
+        "\u0000ाउिडया शीनबाम (Claudia Sheinbaum)",
+        "मसूद पेज़ेशिकयन (Masoud Pezeshkian)",
+        "जैयर बो\u0000ोनारो (Jair Bolsonaro)",
+        "यामांडू ओरसी (Yamandu Orsi)"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 30,
+    "section": "awareness",
+    "en": {
+      "text": "In August 2025, India’s first-ever grassland bird census using passive acoustic monitoring and AI tools was highlighted by the Prime Minister in his Mann ki Baat address. In which national park was this census conducted?",
+      "options": [
+        "Sultanpur National Park, Haryana",
+        "Kaziranga National Park, Assam",
+        "Keoladeo National Park, Rajasthan",
+        "Jim Corbett National Park, Uttarakhand"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "फरवरी 2025 म\u0000 आयोिजत प्रथम BIMSTEC युवा िशखर स\u0000ेलन का आयोजन स्थल कहां था?",
+      "options": [
+        "गांधीनगर, गुजरात",
+        "नई िद\u0000ी",
+        "भोपाल, मध्य प्रदेश",
+        "हैदराबाद, तेलंगाना"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 31,
+    "section": "awareness",
+    "en": {
+      "text": "In early July 2025, the 17th BRICS Leaders’ Summit convened in which city?",
+      "options": [
+        "Johannesburg",
+        "New Delhi",
+        "Rio de Janeiro",
+        "Shanghai"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "व\u0000 सांिवधािनक संशोधन \u0000ारा संिवधान म\u0000 िनम्निल\u0000खत म\u0000 से कौन-से नए अनु\u0000ेद शािमल िकए गए?",
+      "options": [
+        "325A, 327A",
+        "339A, 341B",
+        "371A, 371B",
+        "330A, 332A"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 32,
+    "section": "awareness",
+    "en": {
+      "text": "What was the all-India coal production in the year 2023-24?",
+      "options": [
+        "697.82 Million Tonne (MT)",
+        "1200.17 Million Tonne (MT)",
+        "1435.32 Million Tonne (MT)",
+        "997.826 Million Tonne (MT)"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "वष\u0000 2023-24 म\u0000 अ\u0000खल भारतीय कोयला उत्पादन िकतना था?",
+      "options": [
+        "697.82 िमिलयन टन (MT)",
+        "1435.32 िमिलयन टन (MT)",
+        "997.826 िमिलयन टन (MT)",
+        "1200.17 िमिलयन टन (MT)"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 33,
+    "section": "awareness",
+    "en": {
+      "text": "Which metal reacts violently with cold water, producing a metal hydroxide, hydrogen gas, and enough heat for the hydrogen to catch fire?",
+      "options": [
+        "Aluminium",
+        "Potassium",
+        "Calcium",
+        "Magnesium"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा, हड़\u0000ा वास्तुकला का वास्तिवक घटक नही ंहै?",
+      "options": [
+        "शहरो ंम\u0000 साव\u0000जिनक इमारत\u0000 और सुिनयोिजत घर शािमल थे",
+        "हड़\u0000ा शहरो ंम\u0000 इमारत\u0000 मानकीकृत पकी हुई ईंटो ंसे बनी थीं",
+        "वा\u0000ुकला, सजावट के बजाय काया\u0000त्मक िडजाइन पर क\u0000\u0000िद्रत थी",
+        "शहरो ंम\u0000 भव्य महल, \u0000ारक और शाही मकबरे थे"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 34,
+    "section": "awareness",
+    "en": {
+      "text": "The Tibetan Plateau, often referred to as the Roof of the World, represents which type of natural vegetation region?",
+      "options": [
+        "Polar Desert",
+        "Alpine Tundra",
+        "Arctic Tundra",
+        "Temperate Grassland"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "िवशाल भारतीय रेिगस्तान म\u0000 िकस प्रकार की जलवायु पाई जाती है?",
+      "options": [
+        "उष्णकिटबंधीय मानसून जलवायु",
+        "शुष्क और अध\u0000 शुष्क जलवायु",
+        "भूमध्यरेखीय जलवायु",
+        "आद्र\u0000 उपोष्णकिटबंधीय जलवायु"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 35,
+    "section": "awareness",
+    "en": {
+      "text": "The 106th Constitutional Amendment inserted which of the following new Articles in the Constitution?",
+      "options": [
+        "339A, 341B",
+        "325A, 327A",
+        "371A, 371B",
+        "330A, 332A"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा आिथ\u0000क कारक, जनसंख्या को िकसी क्षेत्र की ओर आकिष\u0000त करता है?",
+      "options": [
+        "सीिमत प\u0000रवहन सुिवधाएँ",
+        "रोजगार के अवसरो ंका अभाव",
+        "उच्च जीवन िनवा\u0000ह लागत",
+        "औ\u0000ोिगक िवकास"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 36,
+    "section": "awareness",
+    "en": {
+      "text": "Who topped the 2025 Times Higher Education Asia University Rankings?",
+      "options": [
+        "University of Hong Kong",
+        "Seoul National University",
+        "Kyoto University",
+        "Tsinghua University"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 िकस प्रमुख भारतीय समाज सुधारक ने भारतीय राष्ट\u0000ीय आंदोलन के दौरान पूना साव\u0000जिनक सभा की स्थापना की थी?",
+      "options": [
+        "महादेव गोिवंद रानाडे",
+        "दादाभाई नौरोजी",
+        "गोपाल ह\u0000र देशमुख (लोकिहतवादी)",
+        "गोपाल कृष्ण गोखले"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 37,
+    "section": "awareness",
+    "en": {
+      "text": "How can developing countries like India reduce inter-regional disparities in human development within the education and healthcare sectors in the 21st century?",
+      "options": [
+        "By focusing all development efforts on capital cities",
+        "By centralising economic activities in urban areas",
+        "By reducing investments in rural education and health",
+        "By implementing region-specific policies and resource allocation"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "भारत जैसे िवकासशील देश 21वी ंसदी म\u0000 िशक्षा और स्वास्थ्य देखभाल क्षेत्रको ंम\u0000 मानव िवकास की अंतर- क्षेत्रीय असमानताओ ंको कैसे कम कर सकते ह\u0000?",
+      "options": [
+        "ग्रामीण िशक्षा और \u0000ास्थ्य म\u0000 िनवेश कम करके",
+        "सभी िवकास प्रयासो ंको राजधानी शहरो ंपर क\u0000\u0000िद्रत करके",
+        "आिथ\u0000क गितिविधयो ंको शहरी क्षेत्रो ंम\u0000 क\u0000द्रीकृत करके",
+        "क्षेत्र-िविशष्ट नीितयो ंऔर संसाधन आवंटन को लागू करके"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 38,
+    "section": "awareness",
+    "en": {
+      "text": "What was the venue of the first BIMSTEC Youth Summit held in February 2025?",
+      "options": [
+        "Hyderabad, Telangana",
+        "Bhopal, Madhya Pradesh",
+        "Gandhinagar, Gujarat",
+        "New Delhi"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "ितब्बती पठार, िजसे प्रायः रूफ ऑफ द व\u0000\u0000 (Roof of the World) कहा जाता है, िनम्निल\u0000खत म\u0000 से िकस प्रकार के प्राकृितक वनस्पित क्षेत्र को िनरूिपत करता है?",
+      "options": [
+        "अ\u0000ाइन टुंड\u0000ा",
+        "आक\u0000िटक टुंड\u0000ा",
+        "\u0000ुवीय मरुस्थल",
+        "शीतोष्ण घासस्थल"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 39,
+    "section": "awareness",
+    "en": {
+      "text": "Which type(s) of Legislatures can a state have under the Indian Constitution?",
+      "options": [
+        "Either a single-house or two-house systems",
+        "Only single-house systems",
+        "Only two-house systems",
+        "Only the Parliament can decide"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "टाइम्स हायर एजुकेशन एिशया यूिनविस\u0000टी र\u0000\u0000िकंग म\u0000 शीष\u0000 स्थान पर, िनम्निल\u0000खत म\u0000 से कौन-सी यूिनविस\u0000टी रही?",
+      "options": [
+        "यूिनविस\u0000टी ऑफ हांगकांग",
+        "िसंघुआ यूिनविस\u0000टी",
+        "िसयोल नेशनल यूिनविस\u0000टी",
+        "\u0000ोटो यूिनविस\u0000टी"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 40,
+    "section": "awareness",
+    "en": {
+      "text": "Which prominent Indian reformer founded the Poona Sarvajanik Sabha during the Indian National movement?",
+      "options": [
+        "Dadabhai Naoroji",
+        "Gopal Hari Deshmukh (Lokhitwadi)",
+        "Mahadev Govind Ranade",
+        "Gopal Krishna Gokhale"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "पेशी-कंकाली तंत्र का कौन-सा भाग मुख्य रूप से म\u0000स्तष्क के संरक्षण हेतु उत्तरदायी है?",
+      "options": [
+        "स्कल (Skull)",
+        "\u0000ोिण प\u0000ी (Pelvic girdle)",
+        "पसली िपंजर (Rib cage)",
+        "मेरुदंड (Spine)"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 41,
+    "section": "mathematics",
+    "en": {
+      "text": "A store sells pens and notebooks. If 3 pens and 2 notebooks cost ₹120, and 2 pens and 4 notebooks cost ₹140, what is the price of one notebook?",
+      "options": [
+        "₹35.00",
+        "₹32.50",
+        "₹25.00",
+        "₹22.50"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "एक दुकान पेन और नोटबुक बेचती है। यिद 3 पेन और 2 नोटबुक की कीमत ₹120 है, तथा 2 पेन और 4 नोटबुक की कीमत ₹140 है, तो एक नोटबुक की कीमत िकतनी है?",
+      "options": [
+        "₹35.00",
+        "₹25.00",
+        "₹22.50",
+        "₹32.50"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 42,
+    "section": "mathematics",
+    "en": {
+      "text": "A shopkeeper wants to earn a profit of  even after giving two successive discounts of  and  on the marked price of an article. If the cost price of the article for the shopkeeper is ₹1800, what should its marked price be?",
+      "options": [
+        "₹2800",
+        "₹2500",
+        "₹3200",
+        "₹3000"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "एक दुकानदार िकसी वस्तु के अंिकत मूल्य पर  और  की दो क्रिमक छूट देने के बाद भी का लाभ अिज\u0000त करना चाहता है। यिद दुकानदार के िलए वस्तु का क्रय मूल्य ₹1800 है, तो उसका अंिकत मूल्य िकतना होगा?",
+      "options": [
+        "₹3200",
+        "₹3000",
+        "₹2800",
+        "₹2500"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 43,
+    "section": "mathematics",
+    "en": {
+      "text": "If the third proportional to two numbers is 32 and the second number is 16, find the first number.",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "यिद दो संख्याओ ंका तृतीयानुपाती 32 है और दूसरी संख्या 16 है, तो पहली संख्या \u0000ात कीिजए।",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 44,
+    "section": "mathematics",
+    "en": {
+      "text": "The 7-digit number 32A776B is divisible by 24. What is the minimum value of (A + B)?",
+      "options": [
+        "6",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "-अंको ंकी संख्या 32A776B, 24 से िवभाज्य है। (A + B) का न्यूनतम मान िकतना है?",
+      "options": [
+        "2",
+        "6",
+        "5",
+        "4"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 45,
+    "section": "mathematics",
+    "en": {
+      "text": "The sum of two positive numbers is 30 and their product is 176. The positive difference between them is:",
+      "options": [
+        "7",
+        "14",
+        "24",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "दो धनात्मक संख्याओ ंका योगफल 30 है और उनका गुणनफल 176 है। उनके बीच का धनात्मक अंतर \u0000ात कीिजए।",
+      "options": [
+        "10",
+        "14",
+        "24",
+        "7"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 46,
+    "section": "mathematics",
+    "en": {
+      "text": "3628",
+      "options": [
+        "11",
+        "5",
+        "9",
+        "7"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "यिद , जहां  है, तो  का मान \u0000ात कीिजए।",
+      "options": [
+        "9",
+        "7",
+        "11",
+        "5"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 47,
+    "section": "mathematics",
+    "en": {
+      "text": "A shopkeeper offers the following schemes on toys of the same marked price. (A) Successive discounts of 39% and 3% on any number of toys bought. (B) Successive discounts of 36%, 13% and 8% on any number of toys bought. (C) 18% discount on the first 2 toys and 41% discount on each toy thereon. (D) 5 toys free of cost on buying 7 toys. A customer wants to buy 7 toys. Which of the above schemes is the least beneficial to her?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "एक दुकानदार एक ही अंिकत मूल्य वाले \u0000खलौनो ंपर िनम्निल\u0000खत स्कीम\u0000 प्रदान करता है- (A) िकतनी भी संख्या म\u0000 खरीदे गए \u0000खलौनो ंपर 39% और 3% की क्रिमक छूट (B) िकतनी भी संख्या म\u0000 खरीदे गए \u0000खलौनो ंपर 36%, 13% और 8% की क्रिमक छूट (C) पहले 2 \u0000खलौनो ंपर 18% की छूट और उसके बाद प्रत्येक \u0000खलौने पर 41% की छूट (D) 7 \u0000खलौने खरीदने पर 5 \u0000खलौने मुफ्त एक ग्राहक 7 \u0000खलौने खरीदना चाहती है। ऊपर दी गई स्कीमो ंम\u0000 से कौन-सी स्कीम उसके िलए सबसे कम लाभप्रद है?",
+      "options": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 48,
+    "section": "mathematics",
+    "en": {
+      "text": "The salary of an employee is increased by 5% in the first year and again by 5% in the second year. What is the overall percentage increase in the salary after two years?",
+      "options": [
+        "10%",
+        "10.25%",
+        "11.5%",
+        "11%"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "एक कम\u0000चारी के वेतन म\u0000 पहले वष\u0000 म\u0000 5% की वृ\u0000द्ध की जाती है और दूसरे वष\u0000 म\u0000 5% की वृ\u0000द्ध की जाती है। दो वष\u0000 बाद, वेतन म\u0000 कुल िकतने प्रितशत की वृ\u0000द्ध होगी?",
+      "options": [
+        "10.25%",
+        "10%",
+        "11.5%",
+        "11%"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 49,
+    "section": "mathematics",
+    "en": {
+      "text": "A 104-metre-long train crosses another 94-metre-long train running in the same direction in 16.2 seconds. If the speed of the first train is 61 kmph, what is the speed of the second train in kmph?",
+      "options": [
+        "105 km/hr",
+        "109 km/hr",
+        "17 km/hr",
+        "101 km/hr"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "मीटर लंबी एक रेलगाड़ी, उसी िदशा म\u0000 चल रही 94 मीटर लंबी दूसरी रेलगाड़ी को 16.2 सेकंड म\u0000 पार करती है। यिद पहली रेलगाड़ी की चाल 61 kmph है, तो दूसरी रेलगाड़ी की चाल (kmph म\u0000) िकतनी होगी?",
+      "options": [
+        "105 km/hr",
+        "17 km/hr",
+        "101 km/hr",
+        "109 km/hr"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 50,
+    "section": "mathematics",
+    "en": {
+      "text": "Ravi spends 70% of his income. If his income increases by 25% and his expenditure increases by 10%, by what percentage do his savings increase?",
+      "options": [
+        "Savings increase by 60%",
+        "Savings increase by 50%",
+        "Savings increase by 40%",
+        "Savings increase by 30%"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "रिव अपनी आय का 70% खच\u0000 करता है। यिद उसकी आय म\u0000 25% की वृ\u0000द्ध होती है तथा व्यय म\u0000 10% की वृ\u0000द्ध होती है, तो उसकी बचत म\u0000 िकतने प्रितशत की वृ\u0000द्ध होगी?",
+      "options": [
+        "बचत म\u0000 30% की वृ\u0000द्ध होगी",
+        "बचत म\u0000 40% की वृ\u0000द्ध होगी",
+        "बचत म\u0000 50% की वृ\u0000द्ध होगी",
+        "बचत म\u0000 60% की वृ\u0000द्ध होगी"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 51,
+    "section": "mathematics",
+    "en": {
+      "text": "The fourth proportional to 1.2, 4.8, and 7.15 is:",
+      "options": [
+        "28.4",
+        "28.6",
+        "28.2",
+        "28.8"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": ".2, 4.8 और 7.15 का चतुथा\u0000नुपाती \u0000ात कीिजए।",
+      "options": [
+        "28.6",
+        "28.2",
+        "28.8",
+        "28.4"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 52,
+    "section": "mathematics",
+    "en": {
+      "text": "Given the data set: 12, 36, 22, 27, 31, 17. What is the median value?",
+      "options": [
+        "26.5",
+        "24.5",
+        "22",
+        "27"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "आँकड़ा समुच्चय: 12, 36, 22, 27, 31, 17 िदया गया है। इनका मा\u0000\u0000का मान िकतना होगा?",
+      "options": [
+        "22",
+        "24.5",
+        "27",
+        "26.5"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 53,
+    "section": "mathematics",
+    "en": {
+      "text": "The total surface area of a cube having side 86 cm is:",
+      "options": [
+        "44,294 cm2",
+        "44,376 cm2",
+        "44,462 cm2",
+        "44,325 cm2"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "cm भुजा वाले घन का संपूण\u0000 पृ\u0000ीय क्षेत्रफल िकतना होगा?",
+      "options": [
+        "44,376 cm2",
+        "44,294 cm2",
+        "44,462 cm2",
+        "44,325 cm2"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 54,
+    "section": "mathematics",
+    "en": {
+      "text": "A quadrilateral has one diagonal of length 36 cm, and the perpendiculars from the other two vertices to this diagonal are 20 cm and 10 cm. What is the area of this quadrilateral?",
+      "options": [
+        "360 cm²",
+        "600 cm²",
+        "540 cm²",
+        "480 cm²"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "एक चतुभु\u0000ज के एक िवकण\u0000 की लंबाई 36 cm है तथा अन्य दो शीष\u0000 से इस िवकण\u0000 पर डाले गए लंब क्रमशः 20 cm और 10 cm ह\u0000। इस चतुभु\u0000ज का क्षेत्रफल \u0000ात कीिजए।",
+      "options": [
+        "540 cm²",
+        "600 cm²",
+        "360 cm²",
+        "480 cm²"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 55,
+    "section": "mathematics",
+    "en": {
+      "text": "During a sale, 40% of the goods are sold at a profit of 10%. Of the remaining goods, 25% are sold at a profit of 15%, and the rest are sold at a loss of 29%. If there is an overall loss of x%, find the value of x.",
+      "options": [
+        "1.5",
+        "2",
+        "6.8",
+        "3.5"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "एक िबक्री के दौरान, 40% सामान 10% के लाभ पर बेचा गया। शेष सामान म\u0000 से 25% को 15% के लाभ पर बेचा गया और शेष को 29% की हािन पर बेचा गया। यिद कुल हािन x% है, तो x का मान \u0000ात कीिजए।",
+      "options": [
+        "1.5",
+        "3.5",
+        "2",
+        "6.8"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 56,
+    "section": "mathematics",
+    "en": {
+      "text": "Two numbers are in the ratio 4 : 5. If their LCM is 240, what is the sum of the two numbers?",
+      "options": [
+        "108",
+        "96",
+        "120",
+        "100"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "दो संख्याएँ 4 : 5 के अनुपात म\u0000 ह\u0000। यिद उनका लघुत्तम समापवत्य\u0000 240 है, तो दोनो ंसंख्याओ ंका योग िकतना है?",
+      "options": [
+        "120",
+        "96",
+        "100",
+        "108"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 57,
+    "section": "mathematics",
+    "en": {
+      "text": "The sum of the present ages of a mother and her daughter is 50 years. Five years ago, the mother's age was 7 times the daughter's age. What is the present age of the mother?",
+      "options": [
+        "40 years",
+        "38 years",
+        "35 years",
+        "42 years"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "एक माता और उसकी पुत्री की वत\u0000मान आयु का योगफल 50 वष\u0000 है। पाँच वष\u0000 पहले, माता की आयु, पुत्री की आयु की 7 गुनी थी। माता की वत\u0000मान आयु \u0000ात कीिजए।",
+      "options": [
+        "38 वष\u0000",
+        "42 वष\u0000",
+        "35 वष\u0000",
+        "40 वष\u0000"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 58,
+    "section": "mathematics",
+    "en": {
+      "text": "A rectangular garden has a length of 25 meters and a width of 18 meters. If a path of uniform width 2 meters is constructed around the outside of the garden, what is the perimeter of the outer edge of the path?",
+      "options": [
+        "86 meters",
+        "98 meters",
+        "112 meters",
+        "102 meters"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "एक आयताकार बगीचे की लंबाई 25 मीटर और चौड़ाई 18 मीटर है। यिद बगीचे के बाहर चारो ंतरफ 2 मीटर की एकसमान चौड़ाई का एक पथ बनाया जाता है, तो पथ के बाहरी कोर का प\u0000रमाप िकतना होगा?",
+      "options": [
+        "102 मीटर",
+        "98 मीटर",
+        "86 मीटर",
+        "112 मीटर"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 59,
+    "section": "mathematics",
+    "en": {
+      "text": "A train, 380 meters long, crosses a stationary train of length 340 m in 16 seconds. Find the speed of the train.",
+      "options": [
+        "162 km/h",
+        "164 km/h",
+        "166 km/h",
+        "160 km/h"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "m लंबी एक ट\u0000ेन, 340 m लंबी एक \u0000स्थर ट\u0000ेन को 16 सेकंड म\u0000 पार कर जाती है, तो ट\u0000ेन की चाल \u0000ात कीिजए।",
+      "options": [
+        "164 km/h",
+        "162 km/h",
+        "160 km/h",
+        "166 km/h"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 60,
+    "section": "mathematics",
+    "en": {
+      "text": "The cost price of 25 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+      "options": [
+        "23",
+        "18",
+        "20",
+        "16"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "वस्तुओ ंका क्रय मूल्य x वस्तुओ ंके िवक्रय मूल्य के बराबर है। यिद लाभ 25% है, तो x का मान िकतना होगा?",
+      "options": [
+        "23",
+        "18",
+        "20",
+        "16"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 61,
+    "section": "mathematics",
+    "en": {
+      "text": "What is the mode of the following data? 40, 41, 42, 51, 45, 43, 45, 43, 51, 40, 51, 54, 46, 50, 55, 47, 42, 46",
+      "options": [
+        "41",
+        "51",
+        "40",
+        "42"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत आंकड़ो ंका बहुलक \u0000ात कीिजए। 40, 41, 42, 51, 45, 43, 45, 43, 51, 40, 51, 54, 46, 50, 55, 47, 42, 46",
+      "options": [
+        "42",
+        "41",
+        "40",
+        "51"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 62,
+    "section": "mathematics",
+    "en": {
+      "text": "Simplify: 30 + [{-9 × (26 - 11 + 6)}]",
+      "options": [
+        "-160",
+        "-162",
+        "-159",
+        "-161"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "सरल कीिजए: 30 + [{-9 × (26 - 11 + 6)}]",
+      "options": [
+        "-161",
+        "-159",
+        "-162",
+        "-160"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 63,
+    "section": "mathematics",
+    "en": {
+      "text": "A tank is normally filled by pipe A in 10 hours. Due to a leak, the tank takes 12 hours to fill. Find the time taken by the leak alone to empty a full tank.",
+      "options": [
+        "60 hours",
+        "40 hours",
+        "30 hours",
+        "80 hours"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "एक ट\u0000क सामान्यतः पाइप A \u0000ारा 10 घंटे म\u0000 भर जाता है। \u0000रसाव के कारण, ट\u0000क को भरने म\u0000 12 घंटे लगते ह\u0000। केवल \u0000रसाव के \u0000ारा पूरे भरे हुए ट\u0000क को खाली होने म\u0000 िकतना समय लगेगा?",
+      "options": [
+        "80 घंटे",
+        "30 घंटे",
+        "60 घंटे",
+        "40 घंटे"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 64,
+    "section": "mathematics",
+    "en": {
+      "text": "The mean proportional between two positive numbers is 30. If the difference between the two numbers is 45, what is the smaller of the two numbers?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "दो धनात्मक संख्याओ ंके बीच का मा\u0000ानुपाती 30 है। यिद दोनो ंसंख्याओ ंका अंतर 45 है, तो उनम\u0000 से छोटी संख्या कौन-सी है?",
+      "options": [
+        "21",
+        "18",
+        "15",
+        "12"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 65,
+    "section": "mathematics",
+    "en": {
+      "text": "If a sum of ₹70,000 amounts to ₹74,263 in X years under compound interest, compounded annually at 3% per annum, find X.",
+      "options": [
+        "5",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "यिद ₹70,000 की धनरािश, 3% चक्रवृ\u0000द्ध \u0000ाज दर से X वष\u0000 म\u0000 ₹74,263 हो जाती है जबिक \u0000य ाज वािष\u0000क रूप से संयोिजत िकया जाता है, तो X का मान \u0000ात कीिजए।",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "5"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 66,
+    "section": "mathematics",
+    "en": {
+      "text": "If ₹25,200 is invested at a simple interest rate of 6% per annum for 4 years, find the interest earned.",
+      "options": [
+        "₹6,070",
+        "₹6,025",
+        "₹6,048",
+        "₹8,021"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "यिद ₹25,200 को 6% वािष\u0000क साधारण \u0000ाज दर पर 4 वष\u0000 के िलए िनवेश िकया जाता है, तो अिज\u0000त \u0000ाज \u0000ात कीिजए।",
+      "options": [
+        "₹6,070",
+        "₹6,025",
+        "₹6,048",
+        "₹8,021"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 67,
+    "section": "mathematics",
+    "en": {
+      "text": "A and B can do a piece of work in 12 days and 36 days, respectively. Both work for 4 days and then A leaves. How long (in days) will B take to complete the remaining work?",
+      "options": [
+        "20",
+        "22",
+        "19",
+        "21"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "A और B एक काम को क्रमशः 12 िदन और 36 िदन म\u0000 पूरा कर सकते ह\u0000। दोनो ं4 िदन काम करते ह\u0000 और िफर A काम छोड़कर चला जाता है। शेष काम को पूरा करने म\u0000 B को िकतने िदन लग\u0000गे?",
+      "options": [
+        "19",
+        "22",
+        "20",
+        "21"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 68,
+    "section": "mathematics",
+    "en": {
+      "text": "Three numbers are in the ratio 3 : 2 : 13, and their LCM is 6318. Their HCF is:8627",
+      "options": [
+        "80",
+        "128",
+        "124",
+        "81"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "तीन संख्याएँ 3 : 2 : 13 के अनुपात म\u0000 ह\u0000, और उनका LCM 6318 है। उनका HCF िकतना है?",
+      "options": [
+        "128",
+        "81",
+        "124",
+        "80"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 69,
+    "section": "reasoning",
+    "en": {
+      "text": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. Only two boxes are kept below G. Only one box is kept above B. Only one box is kept between B and A. F is kept immediately above E. D is kept at some place below C. Which box is kept at the top?446",
+      "options": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "सात िडब्बे A, B, C, D, E, F और G एक के ऊपर एक रखे गए ह\u0000, लेिकन जरूरी नही ंिक वे इसी क्रम म\u0000 हो।ं A के नीचे केवल दो िडब्बे रखे गए ह\u0000। E के ऊपर केवल एक िडब्बा रखा गया है। E और B के बीच केवल एक िडब्बा रखा गया है। G के ठीक ऊपर C को रखा गया है। D को F के नीचे िकसी स्थान पर रखा गया है? A और D के बीच िकतने िडब्बे रखे गए ह\u0000?",
+      "options": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 70,
+    "section": "reasoning",
+    "en": {
+      "text": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)",
+      "options": [
+        "YI - BM",
+        "GV - JZ",
+        "BU - EY",
+        "OS - RV"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "अंग्रेजी वण\u0000माला क्रम पर आधा\u0000रत, िनम्निल\u0000खत चार अक्षर-समूहो ंम\u0000 से तीन िकसी िनि\u0000त तरीके से एकसमान ह\u0000 और इस प्रकार वे एक ग्रुप बनाते ह\u0000। कौन-सा अक्षर-समूह, उस ग्रुप से संबंिधत नही ंहै? (नोट: असंगत अक्षर-समूह, व्यंजनो/ंस्वरो ंकी संख्या या उनकी \u0000स्थित पर आधा\u0000रत नही ंहै।)",
+      "options": [
+        "PMO",
+        "XTW",
+        "JFI",
+        "FBE"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 71,
+    "section": "reasoning",
+    "en": {
+      "text": "Eight people, A, B, M, N, S, T, Y and Z, are sitting in a row, facing north. S sits second to the left of Y and S sits third to the right of N. Y sits at one of the extreme ends. T sits to the immediate right of A. B sits to the immediate left of M and M sits second to the left of Z. Who sits at the extreme left end of the row?",
+      "options": [
+        "S",
+        "A",
+        "M",
+        "B"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "सात िडब्बे B, C, D, E, Q, R और S एक के ऊपर एक रखे गए ह\u0000, लेिकन जरूरी नही ंिक वे इसी क्रम म\u0000 रखे गए हो।ं D के ऊपर केवल पांच िडब्बे रखे गए ह\u0000। D और C के बीच केवल तीन िडब्बे रखे गए ह\u0000। C और S के बीच केवल चार िडब्बे रखे गए ह\u0000। C और B के बीच केवल E को रखा गया है। R को C के ऊपर िकसी स्थान पर रखा गया है। Q और S के बीच िकतने िडब्बे रखे गए ह\u0000?",
+      "options": [
+        "एक",
+        "चार",
+        "तीन",
+        "दो"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 72,
+    "section": "reasoning",
+    "en": {
+      "text": "What should come in place of the question mark (?) in the given series? 26 34 45 53 64 72 ?",
+      "options": [
+        "86",
+        "81",
+        "88",
+        "83"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "दी गई \u0000ृंखला म\u0000 प्रश्न-िचह्न (?) के स्थान पर \u0000ा आना चािहए? 26 34 45 53 64 72 ?",
+      "options": [
+        "81",
+        "86",
+        "88",
+        "83"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 73,
+    "section": "reasoning",
+    "en": {
+      "text": "Each letter in the word NERVOUS is arranged in the English alphabetical order. How many letters are there in the English alphabetical order between the letter which is fourth from the left and the one which is third from the right in the new letter cluster thus formed?",
+      "options": [
+        "3",
+        "4",
+        "0",
+        "1"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "शब्द NERVOUS के प्रत्येक अक्षर को अंग्रेजी वण\u0000माला क्रम म\u0000 व्यव\u0000स्थत िकया जाता है। इस प्रकार बने नए अक्षर-समूह म\u0000 बाई ंओर से चौथे अक्षर और दाई ंओर से तीसरे अक्षर के बीच अंग्रेजी वण\u0000माला क्रम म\u0000 िकतने अक्षर ह\u0000?",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "4"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 74,
+    "section": "reasoning",
+    "en": {
+      "text": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 215 − 147 ÷ 110 + 1604 × 4 = ?",
+      "options": [
+        "18588",
+        "15984",
+        "14948",
+        "19584"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "यिद ‘+’ और ‘−’ को पर\u0000 पर बदल िदया जाए तथा ‘×’ और ‘÷’ को पर\u0000 पर बदल िदया जाए, तो िनम्निल\u0000खत समीकरण म\u0000 प्रश्न-िचह्न (?) के स्थान पर \u0000ा आएगा? 215 − 147 ÷ 110 + 1604 × 4 = ?",
+      "options": [
+        "19584",
+        "14948",
+        "15984",
+        "18588"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 75,
+    "section": "reasoning",
+    "en": {
+      "text": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. Only two boxes are kept below A. Only one box is kept above E. Only one box is kept between E and B. C is kept immediately above G. D is kept at some place below F. How many boxes are kept between A and D?47",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "नेहा िबंदु A से चलना शुरू करती है और पूव\u0000 िदशा म\u0000 11 km चलती है। िफर वह दाएं मुड़ती है, 8 km चलती है, िफर दाएं मुड़कर 14 km चलती है। इसके बाद वह िफर दाएं मुड़ती है और 12 km चलती है। अंत म\u0000 वह दाएं मुड़कर 3 km चलती है और िबंदु P पर रुक जाती है। िबंदु A पर वापस पहुँचने के िलए उसे िकतनी दूरी (सबसे कम दूरी) और िकस िदशा म\u0000 चलना चािहए? (जब तक अन्यथा िनिद\u0000ष्ट न हो, सभी मोड़ केवल 90 िडग्री के ह\u0000।)",
+      "options": [
+        "दिक्षण की ओर 3 km",
+        "उत्तर की ओर 1 km",
+        "उत्तर की ओर 2 km",
+        "दिक्षण की ओर 4 km"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 76,
+    "section": "reasoning",
+    "en": {
+      "text": "What should come in place of ‘?’ in the given series? 20 ? 38 56 80 110",
+      "options": [
+        "22",
+        "24",
+        "32",
+        "26"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "दी गई \u0000ंखला म\u0000 ‘?’ के स्थान पर \u0000ा आना चािहए? 20 ? 38 56 80 110",
+      "options": [
+        "22",
+        "26",
+        "32",
+        "24"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 77,
+    "section": "reasoning",
+    "en": {
+      "text": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 18, 325 19, 362",
+      "options": [
+        "14, 196",
+        "21, 440",
+        "22, 485",
+        "20, 399"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत संख्या युग्मो ंम\u0000, पहली संख्या पर कुछ गिणतीय संिक्रयाएं करके दूसरी संख्या प्राप्त की गई है। उस सेट का चयन कीिजए, िजसम\u0000 संख्याएं उसी प्रकार संबंिधत ह\u0000 जैसे िक िनम्निल\u0000खत सेटो ंकी संख्याएं संबंिधत ह\u0000। (नोट: संख्याओ ंको उनके घटक अंको ंम\u0000 तोड़े िबना, संिक्रयाएं पूण\u0000 संख्याओ ंपर की जानी चािहए। उदाहरण के िलए 13 को लीिजए,13 पर – संिक्रयाएं, जैसे िक 13 म\u0000 जोड़ना / घटाना / गुणा करना आिद 13 पर की जा सकती ह\u0000। 13 को 1 और 3 म\u0000 तोड़ना तथा िफर 1 और 3 पर गिणतीय संिक्रयाएं करने की अनुमित नही ंहै।) 18, 325 19, 362",
+      "options": [
+        "22, 485",
+        "14, 196",
+        "20, 399",
+        "21, 440"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 78,
+    "section": "reasoning",
+    "en": {
+      "text": "Each of the digits in the number 3147856 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "संख्या 3147856 म\u0000 प्रत्येक अंक को बाएं से दाएं आरोही क्रम म\u0000 व्यव\u0000स्थत करने पर प्राप्त नई संख्या म\u0000, मूल संख्या की तुलना म\u0000 िकतने अंको ंका स्थान अप\u0000रवित\u0000त रहेगा?",
+      "options": [
+        "एक",
+        "तीन",
+        "एक भी नहीं",
+        "दो"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 79,
+    "section": "reasoning",
+    "en": {
+      "text": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the one that DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": [
+        "GDH",
+        "DAF",
+        "MJN",
+        "JGK"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "अंग्रेजी वण\u0000माला क्रम के आधार पर, िनम्निल\u0000खत चार अक्षर-समूह युग्मो ंम\u0000 से तीन िकसी िनि\u0000त तरीके से एकसमान ह\u0000 और इस प्रकार वे एक ग्रुप बनाते ह\u0000। कौन-सा अक्षर-समूह युग्म, उस ग्रुप से संबंिधत नही ंहै? (नोट: असंगत अक्षर-समूह युग्म, व्यंजनो/ंस्वरो ंकी संख्या या उनकी \u0000स्थित पर आधा\u0000रत नही ंहै।)",
+      "options": [
+        "YI - BM",
+        "GV - JZ",
+        "BU - EY",
+        "OS - RV"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 80,
+    "section": "reasoning",
+    "en": {
+      "text": "Read the given statements and conclusions carefully. You have to take the given statements to be true even if they seem to be at variance from commonly known facts. You have to decide which conclusions logically follow/s from the given statements. Statements: Some cups are jugs. Some jugs are vases. Conclusion (I) : Some cups are vases Conclusion (II) : All vases are jugs",
+      "options": [
+        "Both conclusions (I) and (II) follow",
+        "Only conclusion (I) follows",
+        "Neither conclusion (I) nor (II) follows",
+        "Only conclusion (II) follows"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "िदए गए कथनो ंऔर िनष्कष\u0000 को \u0000ानपूव\u0000क पिढ़ए। यह मानते हुए िक कथनो ंम\u0000 दी गई जानकारी सत्य है, भले ही वह सामान्य रूप से \u0000ात त\u0000ो ंसे िभन्न प्रतीत हो, यह तय कीिजए िक िदए गए िनष्कष\u0000 म\u0000 से कौन- से िनष्कष\u0000, कथनो ंका तािक\u0000क रूप से अनुसरण करते ह\u0000। कथन: कुछ कप, जग ह\u0000। कुछ जग, फूलदान ह\u0000। िनष्कष\u0000 (I): कुछ कप, फूलदान ह\u0000। िनष्कष\u0000 (II): सभी फूलदान, जग ह\u0000।",
+      "options": [
+        "केवल िनष्कष\u0000 (II) अनुसरण करता है",
+        "न तो िनष्कष\u0000 (I) और न ही (II) अनुसरण करता है",
+        "िनष्कष\u0000 (I) और (II) दोनो ंअनुसरण करते ह\u0000",
+        "केवल िनष्कष\u0000 (I) अनुसरण करता है"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 81,
+    "section": "reasoning",
+    "en": {
+      "text": "IP 18 is related to KL 4 in a certain way. In the same way, KL 16 is related to MH 2. To which of the following is AT 9 related, following the same logic? 9775",
+      "options": [
+        "TR -1",
+        "BK -9",
+        "JO -6",
+        "CP -5"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "एक िनि\u0000त तरीके से IP 18 का संबंध KL 4 से है। उसी प्रकार, KL 16 का संबंध MH 2 से है। समान तक\u0000 का अनुसरण करते हुए, AT 9 का संबंध िनम्निल\u0000खत म\u0000 से िकससे है?",
+      "options": [
+        "BK -9",
+        "TR -1",
+        "JO -6",
+        "CP -5"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 82,
+    "section": "reasoning",
+    "en": {
+      "text": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s). Statements: Some papers are rains. All rains are trees. Conclusions: (I) Some papers are trees. (II) All trees are rains.",
+      "options": [
+        "Both conclusions (I) and (II) follow",
+        "Only conclusion (II) follows",
+        "Neither conclusion (I) nor (II) follows",
+        "Only conclusion (I) follows"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "उस ित्रक का चयन कीिजए जो नीचे िदए गए दो ित्रको ंके समान पैटन\u0000 का अनुसरण करता है। दोनो ंित्रक समान पैटन\u0000 का अनुसरण करते ह\u0000। JL – MO – PR EG – HJ – KM",
+      "options": [
+        "MO – PR – SU",
+        "DP – GS – JU",
+        "NF – RJ – TL",
+        "CH – GK – JO"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 83,
+    "section": "reasoning",
+    "en": {
+      "text": "In the following triad, each group of letters is related to the subsequent one following a certain logic. Select, from the given options, the one which follows the same logic. ROSE - RSEO - OSRE JUGS - JGSU - UGJS7968",
+      "options": [
+        "PING - PNGI - INPG",
+        "LADY - LDYA - ALYD",
+        "COLD - OCLD - OLDC",
+        "BOND - BNOD - DNOB"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत ित्रको ंम\u0000, अक्षरो ंका प्रत्येक समूह एक िनि\u0000त तक\u0000 के अनुसार अगले समूह से संबंिधत है। िदए गए िवकल्पो ंम\u0000 से उस िवकल्प का चयन कीिजए जो समान तक\u0000 का अनुसरण करता है। ROSE - RSEO - OSRE JUGS - JGSU - UGJS",
+      "options": [
+        "LADY - LDYA - ALYD",
+        "PING - PNGI - INPG",
+        "BOND - BNOD - DNOB",
+        "COLD - OCLD - OLDC"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 84,
+    "section": "reasoning",
+    "en": {
+      "text": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster.)",
+      "options": [
+        "PMO",
+        "XTW",
+        "FBE",
+        "JFI"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "अंग्रेजी वण\u0000माला क्रम पर आधा\u0000रत, िनम्निल\u0000खत चार अक्षर-समूहो ंम\u0000 से तीन िकसी िनि\u0000त तरीके से एकसमान ह\u0000 और इस प्रकार वे एक ग्रुप बनाते ह\u0000। कौन-सा अक्षर-समूह, उस ग्रुप से संबंिधत नही ंहै? (नोट: असंगत अक्षर-समूह, व्यंजनो/ंस्वरो ंकी संख्या या उनकी \u0000स्थित पर आधा\u0000रत नही ंहै।)",
+      "options": [
+        "DAF",
+        "MJN",
+        "JGK",
+        "GDH"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 85,
+    "section": "reasoning",
+    "en": {
+      "text": "Each of the digits in the number 3516472 is arranged in the ascending order from left to right. The position(s) of how many digits will remain unchanged as compared to that in the original number?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "Zero"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "संख्या 3516472 के प्रत्येक अंक को बाएं से दाएं आरोही क्रम म\u0000 व्यव\u0000स्थत िकया जाता है। मूल संख्या की तुलना म\u0000 िकतने अंको ंका \u0000 थान अप\u0000रवित\u0000त रहेगा?",
+      "options": [
+        "तीन",
+        "दो",
+        "एक का भी नहीं",
+        "एक"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 86,
+    "section": "reasoning",
+    "en": {
+      "text": "In a certain code language, ‘PRIME’ is coded as ‘37862’ and ‘REMAP’ is coded as ‘87423’. What is the code for ‘A’ in the given code language?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "2"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "एक िनि\u0000त कूट भाषा म\u0000, ‘PRIME’ को ‘37862’ के रूप म\u0000 कूटबद्ध िकया जाता है और ‘REMAP’ को ‘87423’ के रूप म\u0000 कूटबद्ध िकया जाता है। दी गई कूट भाषा म\u0000 ‘A’ के िलए कूट \u0000ा है?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "7"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 87,
+    "section": "reasoning",
+    "en": {
+      "text": "Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern. JL – MO – PR EG – HJ – KM",
+      "options": [
+        "CH – GK – JO",
+        "DP – GS – JU",
+        "NF – RJ – TL",
+        "MO – PR – SU"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "िदए गए कथनो ंऔर िनष्कष\u0000 को \u0000ानपूव\u0000क पढ़\u0000। यह मानते हुए िक कथनो ंम\u0000 दी गई जानकारी सत्य है, भले ही वह सामान्यतः \u0000ात त\u0000ो ंसे िभन्न प्रतीत होती हो, िनण\u0000य कीिजए िक िदए गए िनष्कष\u0000 म\u0000 से कौन- सा कथन का तािक\u0000क रूप से अनुसरण करता है। कथन: कुछ कागज़, बा\u0000रश ह\u0000। सभी बा\u0000रश, पेड़ ह\u0000। िनष्कष\u0000: (I) कुछ कागज़, पेड़ ह\u0000। (II) सभी पेड़, बा\u0000रश ह\u0000।",
+      "options": [
+        "न तो िनष्कष\u0000 (I) और न ही (II) अनुसरण करता है",
+        "केवल िनष्कष\u0000 (II) अनुसरण करता है",
+        "केवल िनष्कष\u0000 (I) अनुसरण करता है",
+        "िनष्कष\u0000 (I) और (II) दोनो ंअनुसरण करते ह\u0000"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 88,
+    "section": "reasoning",
+    "en": {
+      "text": "Neha starts from Point A and drives 11 km towards the east. She then takes a right turn, drives 8 km, turns right and drives 14 km. She then takes a right turn and drives 12 km. She takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should she drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "options": [
+        "4 km to the south",
+        "2 km to the north",
+        "3 km to the south",
+        "1 km to the north"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत अक्षर \u0000ंखला का संदभ\u0000 लीिजए और िदए गए प्रश्न का उत्तर दीिजए। िगनती केवल बाएं से दाएं की ओर की जानी है। (बाएं) Z Q M H J E K D E L K Z V N E A T Q R Z U (दाएं) ऐसे िकतने व्यंजन ह\u0000, िजनम\u0000 से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद एक स्वर है?",
+      "options": [
+        "एक",
+        "चार",
+        "दो",
+        "तीन"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 89,
+    "section": "reasoning",
+    "en": {
+      "text": "What should come in place of the question mark (?) in the given series to make it logically complete? MU1, NQ4, PN16, SL64, ?",
+      "options": [
+        "RJ256",
+        "SJ258",
+        "SK256",
+        "WK256"
+      ],
+      "correctAnswer": 3
+    },
+    "hi": {
+      "text": "दी गई \u0000ंखला को तािक\u0000क रूप से पूण\u0000 बनाने के िलए, प्रश्न-िचह्न (?) के \u0000 थान पर \u0000ा आना चािहए? MU1, NQ4, PN16, SL64, ?",
+      "options": [
+        "SJ258",
+        "SK256",
+        "WK256",
+        "RJ256"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 90,
+    "section": "reasoning",
+    "en": {
+      "text": "Each vowel in the word CURRENT is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. Which of the following letters will be fourth from the left in the new group of letters thus formed?7725",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "शब्द CURRENT के प्रत्येक स्वर को अंग्रेजी वण\u0000माला क्रम म\u0000 उसके ठीक बाद वाले अक्षर से बदल िदया जाता है और प्रत्येक व्यंजन को अंग्रेजी वण\u0000माला क्रम म\u0000 उसके ठीक पहले वाले अक्षर से बदल िदया जाता है। इस प्रकार बने नए अक्षर-समूह म\u0000 बाई ंओर से चौथा अक्षर िनम्निल\u0000खत म\u0000 से कौन-सा होगा?",
+      "options": [
+        "R",
+        "Q",
+        "S",
+        "P"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 91,
+    "section": "reasoning",
+    "en": {
+      "text": "Seven people, S, T, I, C, K, E and R, are sitting in a row, facing north. Only E sits to the left of K. Only four people sit between E and T. Only C sits between I and R, and I is not an immediate neighbor of T. Who sits at the extreme right of the line?",
+      "options": [
+        "S",
+        "E",
+        "K",
+        "I"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "सात व्य\u0000क्त, S, T, I, C, K, E और R, एक पं\u0000क्त म\u0000 उत्तर िदशा की ओर अिभमुख होकर बैठे ह\u0000। K के बाएं केवल E बैठा है। E और T के बीच केवल चार व्य\u0000क्त बैठे ह\u0000। I और R के बीच केवल C बैठा है, और I, T का िनकटतम पड़ोसी नही ंहै। पं\u0000क्त के दाएं छोर पर कौन बैठा है?",
+      "options": [
+        "I",
+        "S",
+        "E",
+        "K"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 92,
+    "section": "reasoning",
+    "en": {
+      "text": "Seven boxes B, C, D, E, Q, R and S are kept one over the other but not necessarily in the same order. Only five boxes are kept above D. Only three boxes are kept between D and C. Only four boxes are kept between C and S. Only E is kept between C and B. R is kept at one of the positions above C. How many boxes are kept between Q and S?7336",
+      "options": [
+        "Three",
+        "One",
+        "Four",
+        "Two"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "सात िडब्बे A, B, C, D, E, F और G एक के ऊपर एक रखे गए ह\u0000, लेिकन जरूरी नही ंिक उनका क्रम यही हो। G के नीचे केवल दो िडब्बे रखे गए ह\u0000। B के ऊपर केवल एक िडब्बा रखा गया है। B और A के बीच केवल एक िडब्बा रखा गया है। F को E के ठीक ऊपर रखा गया है। D को C के नीचे िकसी स्थान पर रखा गया है। िकस िडब्बे को सबसे ऊपर रखा गया है?",
+      "options": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 93,
+    "section": "reasoning",
+    "en": {
+      "text": "In a certain code language, A + B means ‘A is the son of B’, A – B means ‘A is the brother of B’, A x B means ‘A is the wife of B’ and A ÷ B means ‘A is the father of B’. Based on the above, how is S related to K if ‘S + D ÷ F – H x K’?",
+      "options": [
+        "Wife's brother",
+        "Father",
+        "Brother",
+        "Wife's father"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "एक िनि\u0000त कूट भाषा म\u0000, ‘van elf sand’ को 'ld ii ne' के रूप म\u0000 कूटबद्ध िकया जाता है और ‘elf poem desk’ को ‘ir le ii’ के रूप म\u0000 कूटबद्ध िकया जाता है। दी गई भाषा म\u0000 ‘elf’ का कूट \u0000ा होगा? (सभी कूट, दो अक्षरो ंके कूट ह\u0000।)",
+      "options": [
+        "ld",
+        "ne",
+        "ii",
+        "ir"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 94,
+    "section": "reasoning",
+    "en": {
+      "text": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? NFG 49, PIK 36, RLO 25, TOS 16, ?",
+      "options": [
+        "VRW 9",
+        "USV 10",
+        "USW 9",
+        "VRV 10"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा अक्षर-संख्या समूह, दी गई \u0000ंखला को तािक\u0000क रूप से पूण\u0000 बनाने के िलए प्रश्न- िचह्न (?) को प्रितस्थािपत करेगा? NFG 49, PIK 36, RLO 25, TOS 16, ?",
+      "options": [
+        "USV 10",
+        "VRV 10",
+        "VRW 9",
+        "USW 9"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 95,
+    "section": "reasoning",
+    "en": {
+      "text": "In a certain code language, J × Q means ‘J is the sister of Q’, J ÷ Q means ‘J is the father of Q’, J + Q means ‘J is the husband of Q’ and J – Q means ‘J is the mother of Q’. Based on the above, how is S related to W if ‘S + T – U ÷ V × W × Y’?",
+      "options": [
+        "Mother's brother",
+        "Father's father",
+        "Wife's brother",
+        "Mother's father"
+      ],
+      "correctAnswer": 1
+    },
+    "hi": {
+      "text": "एक िनि\u0000त कूट भाषा म\u0000, A + B का अथ\u0000 है िक 'A, B का पुत्र है।' A – B का अथ\u0000 है िक 'A, B का भाई है।' A x B का अथ\u0000 है िक 'A, B की प\u0000ी है'और A ÷ B का अथ\u0000 है िक 'A, B का िपता है।' उपरोक्त के आधार पर, यिद ‘S + D ÷ F – H x K’ है, तो S का K से \u0000ा संबंध है?",
+      "options": [
+        "िपता",
+        "प\u0000ी का िपता",
+        "प\u0000ी का भाई",
+        "भाई"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 96,
+    "section": "reasoning",
+    "en": {
+      "text": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? EAW 91 XTP 98 QMI 105 JFB 112 ?",
+      "options": [
+        "CYU 119",
+        "CXT 118",
+        "CZT 119",
+        "CLV 118"
+      ],
+      "correctAnswer": 0
+    },
+    "hi": {
+      "text": "िनम्निल\u0000खत म\u0000 से कौन-सा अक्षर-संख्या समूह दी गई \u0000ंखला म\u0000 प्रश्न-िचह्न (?) के स्थान पर रखे जाने से \u0000ंखला तािक\u0000क रूप से पूण\u0000 हो जाएगी? EAW 91 XTP 98 QMI 105 JFB 112 ?",
+      "options": [
+        "CLV 118",
+        "CXT 118",
+        "CYU 119",
+        "CZT 119"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 97,
+    "section": "reasoning",
+    "en": {
+      "text": "In a certain code language, ‘van elf sand’ is coded as 'ld ii ne' and ‘elf poem desk’ is coded as ‘ir le ii’. How is ‘elf’ coded in the given language? (All codes are two-letter codes.)",
+      "options": [
+        "ne",
+        "ir",
+        "ii",
+        "ld"
+      ],
+      "correctAnswer": 2
+    },
+    "hi": {
+      "text": "आठ व्य\u0000क्त, A, B, M, N, S, T, Y और Z, एक पं\u0000क्त म\u0000 उत्तर िदशा की ओर अिभमुख होकर बैठे ह\u0000। S, Y के बाएँ से दूसरे स्थान पर बैठा है और S, N के दाएँ से तीसरे स्थान पर बैठा है। Y पं\u0000क्त के िकसी एक छोर पर बैठा है। T, A के ठीक दाएँ पड़ोस म\u0000 बैठा है। B, M के ठीक बाएँ पड़ोस म\u0000 बैठा है और M, Z के बाएँ से दूसरे स्थान पर बैठा है। पं\u0000क्त के बाएँ छोर पर कौन बैठा है?",
+      "options": [
+        "A",
+        "S",
+        "B",
+        "M"
+      ],
+      "correctAnswer": 0
+    }
+  }
+]
